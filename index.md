@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: Mark L Bentley
 ---
 
 This is the index
