@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="navbar-brand " rel="author" href="{{ "/" | relative_url }}"><img class="img-me rounded-circle img-thumbnail" src="{{ "/assets/me.png" | absolute_url }}" width="100" height="100" />
+      {{ site.title | escape }}</a>
 
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -17,9 +18,6 @@
           </li>
           {%- endif -%}
         {% endfor -%}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Fork me on Github</a>
-        </li>
       </ul>
     </div>
   </div>
